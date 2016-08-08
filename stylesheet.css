@@ -1,0 +1,17 @@
+body
+{
+background-color: grey;
+color: springgreen;
+}
+
+li:hover {
+    text-dec: :none;
+    color:hsl(220,70%,60%);
+    background:white;
+}
+li ul{
+    display:none;
+}
+li:hover>ul{
+    display:block;
+}
